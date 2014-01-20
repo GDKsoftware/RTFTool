@@ -1,9 +1,11 @@
 RTFTool
 =======
 
-Allows the inserting of text into a RTF document via Command line.
+Inserts text into a RTF document via Command line.
 
 Parameters can be placed in sequence.
+
+Usage: RTFTool &lt;file.rtf&gt; [options]
 
 Options:
 
