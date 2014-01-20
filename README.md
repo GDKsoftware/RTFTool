@@ -6,12 +6,40 @@ Allows the inserting of text into a RTF document via Command line.
 Parameters can be placed in sequence.
 
 Options:
--al "list item text"
--a "text"
--in [0-99]
--sz [1-99]
--fn "Arial"
-+b
--b
-+i
--i
+
+* -al "list item text"
+
+  Starts or continues a list with the given "list item text".
+
+* -a "text"
+
+  Adds a line of text.
+
+* -in [0-99]
+
+  Sets the indenting for lists.
+
+* -sz [1-99]
+
+  Sets the font size.
+
+* -fn "Arial"
+
+  Sets the font name.
+
+* +b
+
+  Starts bold text.
+
+* -b
+
+  Ends bold.
+
+* +i
+
+  Starts italic text.
+
+* -i
+
+  Ends italic.
+
