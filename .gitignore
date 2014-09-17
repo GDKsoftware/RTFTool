@@ -213,3 +213,10 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+# Delphi local files (user-specific info)
+*.local
+*.identcache
+*.projdata
+*.tvsconfig
+*.dsk
